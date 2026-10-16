@@ -1,0 +1,27 @@
+# Secrets — never commit
+.env
+.env.local
+*.secret
+
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+# Go build cache / test artifacts
+/vendor/
+*.test
+*.out
+
+# Local logs & OS
+/logs/
+.DS_Store
+Thumbs.db
+/pdfs/
+.claude/
+
+# Editor
+.idea/
+.vscode/
+*.swp
